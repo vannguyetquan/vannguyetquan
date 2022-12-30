@@ -1,0 +1,29 @@
+#product {
+    display: flex;
+}
+#product-info {
+    text-align: center;
+     left: 50px;
+}
+#product-pic {
+    float: left;
+}
+#product-info ul li{
+    float: left;
+    list-style-type: none;
+   
+    /* margin-left: 71px; */
+    font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+    #product {
+        display: block;
+    }
+}
+.label {
+    left: 347px;
+}
+#list-manga ul li{
+    list-style-type: none; 
+}
+/* id là dùng # nhớ hộ cái */
