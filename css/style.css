@@ -1,3 +1,186 @@
+:root {
+  --font-1    : "Lora", serif;
+  --font-2    : "Gothic A1", sans-serif;
+  --font-3    : "Marcellus", serif;
+
+  /* monospace
+  */
+  --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
+}
+
+
+:root {
+
+
+  --color-1                      : hsla(76, 6%, 35%, 1);
+  --color-2                      : hsla(344, 44%, 25%, 1);
+  --color-3                      : hsla(40, 100%, 75%, 1);
+
+
+  --color-1-lighter              : hsla(76, 6%, 55%, 1);
+  --color-1-light                : hsla(76, 6%, 45%, 1);
+  --color-1-dark                 : hsla(76, 6%, 25%, 1);
+  --color-1-darker               : hsla(76, 6%, 15%, 1);
+  --color-2-lighter              : hsla(344, 44%, 45%, 1);
+  --color-2-light                : hsla(344, 44%, 35%, 1);
+  --color-2-dark                 : hsla(344, 44%, 15%, 1);
+  --color-2-darker               : hsla(344, 44%, 5%, 1);
+  --color-3-lighter              : hsla(40, 100%, 97%, 1);
+  --color-3-light                : hsla(40, 100%, 85%, 1);
+  --color-3-dark                 : hsla(40, 100%, 65%, 1);
+  --color-3-darker               : hsla(40, 100%, 55%, 1);
+
+
+  --color-error                  : hsla(359, 100%, 91%, 1);
+  --color-success                : hsla(76, 69%, 68%, 1);
+  --color-info                   : hsla(205, 82%, 91%, 1);
+  --color-notice                 : hsla(51, 100%, 80%, 1);
+  --color-error-content          : hsla(359, 50%, 50%, 1);
+  --color-success-content        : hsla(76, 29%, 28%, 1);
+  --color-info-content           : hsla(205, 32%, 31%, 1);
+  --color-notice-content         : hsla(51, 30%, 30%, 1);
+
+
+  --color-black                  : #000000;
+  --color-gray-19                : #020202;
+  --color-gray-18                : #040404;
+  --color-gray-17                : #060607;
+  --color-gray-16                : #080809;
+  --color-gray-15                : #0a0b0b;
+  --color-gray-14                : #0c0d0d;
+  --color-gray-13                : #0e0f0f;
+  --color-gray-12                : #101112;
+  --color-gray-11                : #121314;
+  --color-gray-10                : #141516;
+  --color-gray-9                 : #2c2c2d;
+  --color-gray-8                 : #434445;
+  --color-gray-7                 : #5b5b5c;
+  --color-gray-6                 : #727373;
+  --color-gray-5                 : #8a8a8b;
+  --color-gray-4                 : #a1a1a2;
+  --color-gray-3                 : #b9b9b9;
+  --color-gray-2                 : #d0d0d0;
+  --color-gray-1                 : #e8e8e8;
+  --color-white                  : #ffffff;
+
+
+  --color-text-dark              : var(--color-black);
+  --color-text                   : var(--color-gray-10);
+  --color-text-light             : var(--color-gray-7);
+  --color-placeholder            : var(--color-gray-6);
+
+  --color-btn                    : var(--color-3-light);
+  --color-btn-text               : var(--color-black);
+  --color-btn-hover              : var(--color-3);
+  --color-btn-hover-text         : var(--color--black);
+  --color-btn-primary            : var(--color-1-dark);
+  --color-btn-primary-text       : var(--color-3-light);
+  --color-btn-primary-hover      : var(--color-1-darker);
+  --color-btn-primary-hover-text : var(--color-3-light);
+  --color-btn-stroke             : var(--color-1-darker);
+  --color-btn-stroke-text        : var(--color-black);
+  --color-btn-stroke-hover       : var(--color-1-darker);
+  --color-btn-stroke-hover-text  : var(--color-3-light);
+
+
+  --color-preloader-bg           : var(--color-gray-10);
+  --color-loader                 : white;
+  --color-loader-light           : rgba(255, 255, 255, 0.1);
+
+
+  --color-body                   : var(--color-3-lighter);
+  --color-border                 : rgba(0, 0, 0, .1);
+  --border-radius                : 3px;
+}
+
+
+:root {
+
+
+  --base-size        : 62.5%;
+  --multiplier       : 1;
+  --base-font-size   : calc(2rem * var(--multiplier));
+  --space            : calc(3.2rem * var(--multiplier));
+
+
+  --vspace-0_125     : calc(0.125 * var(--space));
+  --vspace-0_25      : calc(0.25 * var(--space));
+  --vspace-0_375     : calc(0.375 * var(--space));
+  --vspace-0_5       : calc(0.5 * var(--space));
+  --vspace-0_625     : calc(0.625 * var(--space));
+  --vspace-0_75      : calc(0.75 * var(--space));
+  --vspace-0_875     : calc(0.875 * var(--space));
+  --vspace-1         : calc(var(--space));
+  --vspace-1_25      : calc(1.25 * var(--space));
+  --vspace-1_5       : calc(1.5 * var(--space));
+  --vspace-1_75      : calc(1.75 * var(--space));
+  --vspace-2         : calc(2 * var(--space));
+  --vspace-2_5       : calc(2.5 * var(--space));
+  --vspace-3         : calc(3 * var(--space));
+  --vspace-3_5       : calc(3.5 * var(--space));
+  --vspace-4         : calc(4 * var(--space));
+  --vspace-4_5       : calc(4.5 * var(--space));
+  --vspace-5         : calc(5 * var(--space));
+
+
+  --text-scale-ratio : 1.2;
+  --text-size        : var(--base-font-size);
+  --text-xs          : calc((var(--text-size) / var(--text-scale-ratio)) / var(--text-scale-ratio));
+  --text-sm          : calc(var(--text-xs) * var(--text-scale-ratio));
+  --text-md          : calc(var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio));
+  --text-lg          : calc(var(--text-md) * var(--text-scale-ratio));
+  --text-xl          : calc(var(--text-lg) * var(--text-scale-ratio));
+  --text-xxl         : calc(var(--text-xl) * var(--text-scale-ratio));
+  --text-xxxl        : calc(var(--text-xxl) * var(--text-scale-ratio));
+  --text-display-1   : calc(var(--text-xxxl) * var(--text-scale-ratio));
+  --text-display-2   : calc(var(--text-display-1) * var(--text-scale-ratio));
+  --text-display-3   : calc(var(--text-display-2) * var(--text-scale-ratio));
+
+  /* default button height
+   */
+  --vspace-btn       : var(--vspace-2);
+}
+
+
+@media screen and (max-width: 600px) {
+  :root {
+      --multiplier : .875;
+  }
+}
+
+
+:root {
+
+
+  --width-full     : 100%;
+  --width-max      : 1200px;
+  --width-wide     : 1400px;
+  --width-wider    : 1600px;
+  --width-widest   : 1800px;
+  --width-narrow   : 1000px;
+  --width-narrower : 800px;
+  --width-grid-max : var(--width-max);
+
+  /* gutter
+   */
+  --gutter         : 2.4rem;
+}
+
+/* on medium screen devices
+*/
+@media screen and (max-width: 1200px) {
+  :root {
+      --gutter : 1.8rem;
+  }
+}
+
+/* on mobile devices
+*/
+@media screen and (max-width: 600px) {
+  :root {
+      --gutter : 1rem;
+  }
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -299,9 +482,7 @@ font-size: 30px;
 ul.product {
     top: 100%;
 }
-.container {
-   margin-top: 138px;
-}
+
 .top {
     color: #091337;
     font-family: "Poppins", sans-serif;
@@ -608,189 +789,7 @@ margin-top: 20%;
     display: none;
   }
 }
-:root {
-  --font-1    : "Lora", serif;
-  --font-2    : "Gothic A1", sans-serif;
-  --font-3    : "Marcellus", serif;
 
-  /* monospace
-  */
-  --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
-}
-
-
-:root {
-
-
-  --color-1                      : hsla(76, 6%, 35%, 1);
-  --color-2                      : hsla(344, 44%, 25%, 1);
-  --color-3                      : hsla(40, 100%, 75%, 1);
-
-
-  --color-1-lighter              : hsla(76, 6%, 55%, 1);
-  --color-1-light                : hsla(76, 6%, 45%, 1);
-  --color-1-dark                 : hsla(76, 6%, 25%, 1);
-  --color-1-darker               : hsla(76, 6%, 15%, 1);
-  --color-2-lighter              : hsla(344, 44%, 45%, 1);
-  --color-2-light                : hsla(344, 44%, 35%, 1);
-  --color-2-dark                 : hsla(344, 44%, 15%, 1);
-  --color-2-darker               : hsla(344, 44%, 5%, 1);
-  --color-3-lighter              : hsla(40, 100%, 97%, 1);
-  --color-3-light                : hsla(40, 100%, 85%, 1);
-  --color-3-dark                 : hsla(40, 100%, 65%, 1);
-  --color-3-darker               : hsla(40, 100%, 55%, 1);
-
-
-  --color-error                  : hsla(359, 100%, 91%, 1);
-  --color-success                : hsla(76, 69%, 68%, 1);
-  --color-info                   : hsla(205, 82%, 91%, 1);
-  --color-notice                 : hsla(51, 100%, 80%, 1);
-  --color-error-content          : hsla(359, 50%, 50%, 1);
-  --color-success-content        : hsla(76, 29%, 28%, 1);
-  --color-info-content           : hsla(205, 32%, 31%, 1);
-  --color-notice-content         : hsla(51, 30%, 30%, 1);
-
-
-  --color-black                  : #000000;
-  --color-gray-19                : #020202;
-  --color-gray-18                : #040404;
-  --color-gray-17                : #060607;
-  --color-gray-16                : #080809;
-  --color-gray-15                : #0a0b0b;
-  --color-gray-14                : #0c0d0d;
-  --color-gray-13                : #0e0f0f;
-  --color-gray-12                : #101112;
-  --color-gray-11                : #121314;
-  --color-gray-10                : #141516;
-  --color-gray-9                 : #2c2c2d;
-  --color-gray-8                 : #434445;
-  --color-gray-7                 : #5b5b5c;
-  --color-gray-6                 : #727373;
-  --color-gray-5                 : #8a8a8b;
-  --color-gray-4                 : #a1a1a2;
-  --color-gray-3                 : #b9b9b9;
-  --color-gray-2                 : #d0d0d0;
-  --color-gray-1                 : #e8e8e8;
-  --color-white                  : #ffffff;
-
-
-  --color-text-dark              : var(--color-black);
-  --color-text                   : var(--color-gray-10);
-  --color-text-light             : var(--color-gray-7);
-  --color-placeholder            : var(--color-gray-6);
-
-  --color-btn                    : var(--color-3-light);
-  --color-btn-text               : var(--color-black);
-  --color-btn-hover              : var(--color-3);
-  --color-btn-hover-text         : var(--color--black);
-  --color-btn-primary            : var(--color-1-dark);
-  --color-btn-primary-text       : var(--color-3-light);
-  --color-btn-primary-hover      : var(--color-1-darker);
-  --color-btn-primary-hover-text : var(--color-3-light);
-  --color-btn-stroke             : var(--color-1-darker);
-  --color-btn-stroke-text        : var(--color-black);
-  --color-btn-stroke-hover       : var(--color-1-darker);
-  --color-btn-stroke-hover-text  : var(--color-3-light);
-
-
-  --color-preloader-bg           : var(--color-gray-10);
-  --color-loader                 : white;
-  --color-loader-light           : rgba(255, 255, 255, 0.1);
-
-
-  --color-body                   : var(--color-3-lighter);
-  --color-border                 : rgba(0, 0, 0, .1);
-  --border-radius                : 3px;
-}
-
-
-/* :root {
-
-
-  --base-size        : 62.5%;
-  --multiplier       : 1;
-  --base-font-size   : calc(2rem * var(--multiplier));
-  --space            : calc(3.2rem * var(--multiplier)); */
-
-
-  --vspace-0_125     : calc(0.125 * var(--space));
-  --vspace-0_25      : calc(0.25 * var(--space));
-  --vspace-0_375     : calc(0.375 * var(--space));
-  --vspace-0_5       : calc(0.5 * var(--space));
-  --vspace-0_625     : calc(0.625 * var(--space));
-  --vspace-0_75      : calc(0.75 * var(--space));
-  --vspace-0_875     : calc(0.875 * var(--space));
-  --vspace-1         : calc(var(--space));
-  --vspace-1_25      : calc(1.25 * var(--space));
-  --vspace-1_5       : calc(1.5 * var(--space));
-  --vspace-1_75      : calc(1.75 * var(--space));
-  --vspace-2         : calc(2 * var(--space));
-  --vspace-2_5       : calc(2.5 * var(--space));
-  --vspace-3         : calc(3 * var(--space));
-  --vspace-3_5       : calc(3.5 * var(--space));
-  --vspace-4         : calc(4 * var(--space));
-  --vspace-4_5       : calc(4.5 * var(--space));
-  --vspace-5         : calc(5 * var(--space));
-
-
-  /* --text-scale-ratio : 1.2;
-  --text-size        : var(--base-font-size);
-  --text-xs          : calc((var(--text-size) / var(--text-scale-ratio)) / var(--text-scale-ratio));
-  --text-sm          : calc(var(--text-xs) * var(--text-scale-ratio));
-  --text-md          : calc(var(--text-sm) * var(--text-scale-ratio) * var(--text-scale-ratio));
-  --text-lg          : calc(var(--text-md) * var(--text-scale-ratio));
-  --text-xl          : calc(var(--text-lg) * var(--text-scale-ratio));
-  --text-xxl         : calc(var(--text-xl) * var(--text-scale-ratio));
-  --text-xxxl        : calc(var(--text-xxl) * var(--text-scale-ratio));
-  --text-display-1   : calc(var(--text-xxxl) * var(--text-scale-ratio));
-  --text-display-2   : calc(var(--text-display-1) * var(--text-scale-ratio));
-  --text-display-3   : calc(var(--text-display-2) * var(--text-scale-ratio)); */
-
-  /* default button height
-   */
-  --vspace-btn       : var(--vspace-2);
-}
-
-
-@media screen and (max-width: 600px) {
-  :root {
-      --multiplier : .875;
-  }
-}
-
-
-:root {
-
-
-  --width-full     : 100%;
-  --width-max      : 1200px;
-  --width-wide     : 1400px;
-  --width-wider    : 1600px;
-  --width-widest   : 1800px;
-  --width-narrow   : 1000px;
-  --width-narrower : 800px;
-  --width-grid-max : var(--width-max);
-
-  /* gutter
-   */
-  --gutter         : 2.4rem;
-}
-
-/* on medium screen devices
-*/
-@media screen and (max-width: 1200px) {
-  :root {
-      --gutter : 1.8rem;
-  }
-}
-
-/* on mobile devices
-*/
-@media screen and (max-width: 600px) {
-  :root {
-      --gutter : 1rem;
-  }
-}
 /* dark screen */
 * {
   box-sizing: border-box;
@@ -832,7 +831,7 @@ body.dark p {
   padding: 5px;
   position: relative;
   top: 27px;
-  left: 347px;
+  left: 15%;
 }
 
 .fa-moon {
@@ -863,4 +862,31 @@ body.dark .product ul li a {
 body.dark .container ul li {
   color: #fff;
 }
+.footer {
+     /* height: 689px; */
+     /* height: 100%; */
+     height: 540px;
+}
+.pogo-part {
+  float: right;
+}
 
+.thanks {
+  top: -10px;
+}
+
+.container {
+  margin-top: 138px;
+  
+}
+.container-2 {
+  margin: 10px;
+  padding: 156px;
+}
+.thanks {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.social-icon ul li i{
+  color:#091337;
+}

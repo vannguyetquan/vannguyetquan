@@ -2,7 +2,7 @@
     display: flex;
 }
 #product-info {
-    text-align: center;
+    text-align: left;
      left: 50px;
 }
 #product-pic {
