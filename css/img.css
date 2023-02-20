@@ -1,0 +1,16 @@
+.truyen {
+    text-align: center;
+}
+.chap-truyen {
+    text-align: center;
+}
+@media screen and (max-width:1920){
+.chap-truyen{
+    width: 70%;
+}
+}
+@media screen and (max-width:1440) {
+    .chap-truyen {
+        width: 90%;
+    }
+}
