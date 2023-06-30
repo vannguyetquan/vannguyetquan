@@ -36,8 +36,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-
-  <body onload="onload()">
+  <body>
     <section class="fixed-top navigation">
     <div class="wrapper">
         <nav>
@@ -46,7 +45,6 @@
           <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
           <div class="content">
           <div class="logo"><a href="https://www.facebook.com/VanNguyetQuan">VấnNguyệtQuán</a></div>
-         
             <ul class="links">
               
               <li><a href="index.html">Trang chủ</a></li>
@@ -154,14 +152,23 @@ const optionsEL = document.querySelector(".options");
     </section>
     
 <!-- Phần mở đầu -->
+<div class="dark-mode">
+  <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="label">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <div class="ball"></div>
+  </label>
+</div>
+<script src="./script.js"></script>
 <!-- hero area -->
 <section class="hero-section hero" data-background="" style="background-image: url(images/hero-area/banner-bg.png);">
   
   <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center zindex-1">
-          <h1 class="mb-3 top">Những truyện
-            team đã dịch</h1>
+          <h1 class="mb-3 top">Ongoing</h1>
+          <p>Những truyện đang trong quá trình làm 💗</p>
           <!-- <p class="mb-4">Đọc đi
             hay lắm :D</p> -->
             </div>
@@ -205,34 +212,6 @@ const optionsEL = document.querySelector(".options");
                          
           </div>
           </div>
-        </div>
-      </li>
-      <li class="list-inline-item active">
-        <div class="product-item">
-         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-          <div class="product-top">
-            <a href="ki-su-nguoi-quen.html" class="product-thumb">
-              <img src="images/Phát điên vượt khỏi cảnh giới.jpg" alt="Phát điên: Vượt khỏi cảnh giới">
-            </a>
-            <div class="product-info">
-              <a href="ki-su-nguoi-quen.html">Phát điên: Vượt khỏi cảnh giới</a>
-            </div>
-          </div>
-         </div>
-        </div>
-      </li>
-      <li class="list-inline-item active">
-        <div class="product-item">
-         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-          <div class="product-top">
-            <a href="ki-su-nguoi-quen.html" class="product-thumb">
-              <img src="images/Kí sự người quen.jpg" alt="Kí sự người quen">
-            </a>
-            <div class="product-info">
-              <a href="ki-su-nguoi-quen.html">Kí sự người quen</a>
-            </div>
-          </div>
-         </div>
         </div>
       </li>
     </ul>

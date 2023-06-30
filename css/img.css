@@ -3,14 +3,10 @@
 }
 .chap-truyen {
     text-align: center;
+    width: 80%;
 }
-@media screen and (max-width:1920){
+@media screen and (max-width:460px){
 .chap-truyen{
-    width: 70%;
+    width: 95%;
 }
-}
-@media screen and (max-width:1440) {
-    .chap-truyen {
-        width: 90%;
-    }
 }

@@ -1,0 +1,47 @@
+<footer class="footer-section footer" style="background-image: url(images/backgrounds/footer-bg.png);">
+    <!-- <img class="pricing-bg-shape-1 up-down-animation" src="images/background-shape/seo-ball-1.png" alt="background-shape">
+  <img class="pricing-bg-shape-2 up-down-animation" src="images/background-shape/seo-half-cycle.png" alt="background-shape">
+  <img class="pricing-bg-shape-3 left-right-animation" src="images/background-shape/team-bg-triangle.png" alt="background-shape"> -->
+  <!-- background shapes -->
+<!-- <img class="team-bg-shape-1 up-down-animation" src="images/background-shape/seo-ball-1.png" alt="background-shape">
+<img class="team-bg-shape-2 left-right-animation" src="images/background-shape/seo-ball-1.png" alt="background-shape"> -->
+<img class="team-bg-shape-3 left-right-animation" src="images/background-shape/team-bg-triangle.png" alt="background-shape">
+<!-- <img class="team-bg-shape-4 up-down-animation img-fluid" src="images/background-shape/team-bg-dots.png" alt="background-shape"> -->
+<img class="img-fluid hero-bg-1 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="">
+<img class="img-fluid hero-bg-3 left-right-animation" src="images/background-shape/seo-half-cycle.png" alt="">
+  <img class="img-fluid hero-bg-5 left-right-animation" src="images/background-shape/blue-half-cycle.png" alt="">
+  <img class="img-fluid hero-bg-7 left-right-animation" src="images/background-shape/yellow-triangle.png" alt="">
+ <img class="img-fluid hero-bg-9 up-down-animation" src="images/background-shape/team-bg-triangle.png" alt="">
+ <div id="scene">
+    
+    <img class="img-fluid hero-bg-2 left-right-animation" src="images/background-shape/seo-ball-1.png" alt="">
+    
+    <img class="img-fluid hero-bg-4 up-down-animation" src="images/background-shape/green-dot.png" alt="">
+  
+    <img class="img-fluid hero-bg-6 up-down-animation" src="images/background-shape/seo-ball-1.png" alt="">
+  
+    <img class="img-fluid hero-bg-8 up-down-animation" src="images/background-shape/service-half-cycle.png" alt="">
+   
+    <!-- Truyện -->
+  </div>
+  <img class="img-fluid hero-bg-1 up-down-animation" src="../images/background-shape/feature-bg-2.png" alt="">
+  <img class="img-fluid hero-bg-3 left-right-animation" src="../images/background-shape/seo-half-cycle.png" alt="">
+    <img class="img-fluid hero-bg-5 left-right-animation" src="../images/background-shape/blue-half-cycle.png" alt="">
+    <img class="img-fluid hero-bg-7 left-right-animation" src="../images/background-shape/yellow-triangle.png" alt="">
+   <img class="img-fluid hero-bg-9 up-down-animation" src="../images/background-shape/team-bg-triangle.png" alt="">
+
+   <!-- <img class="team-bg-shape-1 up-down-animation" src="/images/background-shape/seo-ball-1.png" alt="background-shape">
+  <img class="team-bg-shape-2 left-right-animation" src="/images/background-shape/seo-ball-1.png" alt="background-shape"> -->
+  <img class="team-bg-shape-3 left-right-animation" src="../images/background-shape/team-bg-triangle.png" alt="background-shape">
+  <!-- <img class="team-bg-shape-4 up-down-animation img-fluid" src="/images/background-shape/team-bg-dots.png" alt="background-shape"> -->
+  <div id="scene">
+      
+    <img class="img-fluid hero-bg-2 left-right-animation" src="../images/background-shape/seo-ball-1.png" alt="">
+    
+    <img class="img-fluid hero-bg-4 up-down-animation" src="../images/background-shape/green-dot.png" alt="">
+  
+    <img class="img-fluid hero-bg-6 up-down-animation" src="../images/background-shape/seo-ball-1.png" alt="">
+  
+    <img class="img-fluid hero-bg-8 up-down-animation" src="../images/background-shape/service-half-cycle.png" alt="">
+   
+  </div>
